@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(168, 127, 127);
+  }
+h1 {
+    color: #118f16;
+    font-weight: bold;
+    font-size: large;
+    
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin: 0.4rem;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    display: block;
+    width: 8rem;
+    margin-top: 1.3rem;
+    margin-right: 0.5rem;
+    margin-left: 0.4rem;
+    background-color: #542727;
+    color: #000000;
+    cursor: pointer;
+    border: none;
+    padding: 0.3rem 0.6rem;
+  }
+  
+  #dob_inp, #email_inp, #phone_inp {
+    width: 12rem;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    opacity: 0.8;
+  }
+  
+  @media (min-width: 1025px) {
+    label {
+      width: 8rem;
+      display: inline-block;
+    }
+  
+    input[type="submit"],
+    input[type="reset"] {
+      display: inline;
+    }
+  
+    #dob_inp, #email_inp, #phone_inp {
+      width: 13rem;
+    }
+  }
+  article {
+  width: 300px;
+  border: 10px solid rgb(0, 0, 0);
+  padding: 50px;
+  margin: 20px;
+}
